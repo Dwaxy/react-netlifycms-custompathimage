@@ -112,7 +112,7 @@ query EntriesQuery {
 }
 ```
 ## Notes
-1. This widget comes with absolutely no warranty. It may or may not work but shouldn't break anything. Besides it's [unlicensed] (https://unlicense.org/) so do whatever you want with it.
+1. This widget comes with absolutely no warranty. It may or may not work but shouldn't break anything. Besides it's [unlicensed](https://unlicense.org/) so do whatever you want with it.
 2. This is supposed to be a temporary fix until [NetlifyCMS's Issue #325](https://github.com/netlify/netlify-cms/issues/325) is fixed. That means I'm currently not planning on improving it, except if I encounter bugs on my own. You're welcome to fork this!
 3. I've used it with Markdown but it should work with other formats.
-4. I've used it as a Widget but it should also work as an Editor Component ([Custom Widgets](https://www.netlifycms.org/docs/custom-widgets/)).
+4. I've used it as a Widget but it should also work as an Editor Component ([NetlifyCMS's Custom Widgets](https://www.netlifycms.org/docs/custom-widgets/)).
