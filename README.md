@@ -10,7 +10,7 @@ To be able to use Gatsby.js's built-in image processing capabilities([`gatsby-im
 
 ## The fix
 
-This custom widget lets NetlifyCMS save the image file according to its settings, but saves the image path in a custom path of your chosing. It also loads the images in the preview directly from the backend, otherwise the images will have an eroneous path and won't load.
+This custom widget lets NetlifyCMS save the image file according to its settings, but saves the image path in a custom path of your choosing. It also loads the images in the preview directly from the backend, otherwise the images will have an eroneous path and won't load.
 
 ## How to use and configure
 
