@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: user/repo
+
+media_folder: images
+
+collections:
+  - name: "entries"
+    label: "Entries"
+    folder: "collections"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - label: "Image"
+        name: "image"
+        widget: "custompathimage"
+        customMediaPath: "../images/"
+        rawMediaPath: "https://raw.githubusercontent.com/user/repo/master/images/"
+      - {label: "Body", name: "body", widget: "markdown"}
