@@ -86,7 +86,7 @@ collections:
         widget: "custompathimage"
         customMediaPath: "../images/"
         rawMediaPath: "https://raw.githubusercontent.com/user/repo/master/images/"
-      - {label: Body, name: body, widget: markdown}
+      - {label: "Body", name: "body", widget: "markdown"}
 
 ```
 4. And voilà! Create your first entry in NetlifyCMS and don't forget to call `childImageSharp` in your GraphQL query:
