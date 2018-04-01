@@ -6,7 +6,7 @@ This widget has been created to fix an incompatibility between [NetlifyCMS](http
 
 ## The problem
 
-To be able to use Gatsby.js's built-in image processing capabilities([`gatsby-image`](https://www.gatsbyjs.org/packages/gatsby-image/)) from , `gatsby-transformer-sharp` has to parse an image path as relative (starting with `./` or  `../`). However, NetlifyCMS saves image paths as absolute (starting with `/`).
+To be able to use Gatsby.js's built-in image processing capabilities ([`gatsby-image`](https://www.gatsbyjs.org/packages/gatsby-image/)), `gatsby-transformer-sharp` has to parse an image path as relative (starting with `./` or  `../`). However, NetlifyCMS saves image paths as absolute (starting with `/`).
 
 ## The fix
 
