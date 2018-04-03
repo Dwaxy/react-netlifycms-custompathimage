@@ -39,7 +39,7 @@ export class CustomPathImageControl extends React.Component {
         onChange(relativeMediaPath);
       }
     }
-    else {
+    else if(mediaPath && mediaPath !== value) {
       onChange (mediaPath);
     }
   }
